@@ -1,9 +1,0 @@
-# Sumário
-
----
-
-## Home Page
-
----
-
-## Playground
