@@ -14,6 +14,7 @@ Use the following syntax to denote a callout block: `> [!INFO]`.
 ```
 
 It will show up like this:
+
 > [!INFO]
 > Here's a callout block.
 > It supports **markdown** and [[Internal link|wikilinks]].
@@ -25,6 +26,7 @@ By default, there are 12 distinct callout types, each with several aliases. Each
 To use these default styles, replace `INFO` in the examples with any of these types. Any unrecognized type will default to the "note" type, unless they are [[#Customizations|customized]]. The type identifier is case insensitive.
 #referencia/md
 Contexto:: [[#Tipos de caixa de aviso]]
+
 - note
 - abstract, summary, tldr
 - info, todo

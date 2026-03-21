@@ -46,4 +46,4 @@ Or you can enclose the target in `<>`, such as:
 [Format your notes](<Format your notes>)
 ```
 
-[Markdown](<Markdown.md>)
+[Markdown](Markdown.md)
