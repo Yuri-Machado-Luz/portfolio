@@ -1,5 +1,5 @@
 ---
 title: Projetos
+tags:
+enableToc: false
 ---
-
-Lista de Projetos

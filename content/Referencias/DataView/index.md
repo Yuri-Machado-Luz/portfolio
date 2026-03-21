@@ -1,5 +1,6 @@
 ---
 title: Data View
+draft: true
 ---
 
 ## Sobre o Data View
