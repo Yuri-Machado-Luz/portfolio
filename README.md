@@ -1,6 +1,6 @@
 # Yuri Machado - HUB
 
-> Seja muito bem-vindo ao meu 'HUB' - nascido da rotina diária de um jovem cansado.
+> Seja muito bem-vindo ao meu repositório público de conhecimentos — nascido da rotina diária de um jovem cansado.
 
 Decidi colocar em 'hold' o portfolio tradicional que estava desenvolvendo em React para dedicar mais tempo em outros projetos e, principalmente, para me dedicar a aprender novas tecnologias.
 
