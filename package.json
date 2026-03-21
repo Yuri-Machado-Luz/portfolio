@@ -101,6 +101,7 @@
     "url": "https://github.com/Yuri-Machado-Luz/yuma-main-hall"
   },
   "scripts": {
+    "build": "npx quartz build",
     "check": "tsc --noEmit && npx prettier . --check",
     "docs": "npx quartz build --serve -d docs",
     "format": "npx prettier . --write",
