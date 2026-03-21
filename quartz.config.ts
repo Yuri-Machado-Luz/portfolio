@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins";
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "YUMA",
-    pageTitleSuffix: "",
+    pageTitleSuffix: " - Yuri Machado Luz",
     enableSPA: true,
     enablePopovers: true,
     analytics: null,
@@ -27,23 +27,23 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#000000ff", // --color-bg: --neutral-900
+          light: "#1B1B1B", // --color-bg: --neutral-900
           lightgray: "#343434ff", // borders: --neutral-700
           gray: "#9fa0a3ff", // text-muted: --neutral-450
           darkgray: "#ffffffdd", // text-main: --neutral-100
           dark: "#FFFFFF", // primary: --primary (hover, headers)
-          secondary: "#bf0603ff", // secondary: --secondary
+          secondary: "#ed302dff", // secondary: --secondary
           tertiary: "#04bfa9ff", // accent: --accent
           highlight: "rgba(191, 6, 3, 0.15)", // primary with low opacity
           textHighlight: "#f9c80eaa", // accent with transparency
         },
         darkMode: {
-          light: "#000000ff", // --color-bg: --neutral-900
+          light: "#444444", // --color-bg: --neutral-900
           lightgray: "#343434ff", // borders: --neutral-700
           gray: "#9fa0a3ff", // text-muted: --neutral-450
           darkgray: "#ffffffdd", // text-main: --neutral-100
           dark: "#FFFFFF", // primary: --primary (hover, headers)
-          secondary: "#bf0603ff", // secondary: --secondary
+          secondary: "#ed302dff", // secondary: --secondary
           tertiary: "#04bfa9ff", // accent: --accent
           highlight: "rgba(191, 6, 3, 0.15)", // primary with low opacity
           textHighlight: "#f9c80eaa", // accent with transparency
@@ -62,7 +62,7 @@ const config: QuartzConfig = {
           light: "github-dark",
           dark: "github-dark",
         },
-        keepBackground: false,
+        keepBackground: true,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
