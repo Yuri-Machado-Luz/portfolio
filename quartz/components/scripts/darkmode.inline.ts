@@ -1,8 +1,6 @@
-const userPref = window.matchMedia("(prefers-color-scheme: light)").matches
-  ? "light"
-  : "dark";
-const currentTheme = localStorage.getItem("theme") ?? userPref;
+const currentTheme = "dark";
 document.documentElement.setAttribute("saved-theme", currentTheme);
+localStorage.setItem("theme", "dark");
 
 const emitThemeChangeEvent = (theme: "light" | "dark") => {
   const event: CustomEventMap["themechange"] = new CustomEvent("themechange", {
@@ -35,13 +33,4 @@ document.addEventListener("nav", () => {
       darkmodeButton.removeEventListener("click", switchTheme),
     );
   }
-
-  // Listen for changes in prefers-color-scheme
-  const colorSchemeMediaQuery = window.matchMedia(
-    "(prefers-color-scheme: dark)",
-  );
-  colorSchemeMediaQuery.addEventListener("change", themeChange);
-  window.addCleanup(() =>
-    colorSchemeMediaQuery.removeEventListener("change", themeChange),
-  );
 });

@@ -8,8 +8,10 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/Yuri-Machado-Luz/yuma-main-hall",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      GitHub: "https://github.com/Yuri-Machado-Luz",
+      LinkedIn: "https://www.linkedin.com/in/yurimachadoluz0311/",
+      WhatsApp:
+        "https://api.whatsapp.com/send?phone=5511949359394&text=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20seu%20site.",
     },
   }),
 };
@@ -34,8 +36,7 @@ export const defaultContentPageLayout: PageLayout = {
           Component: Component.Search(),
           grow: true,
         },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
+        // { Component: Component.Darkmode() },
       ],
     }),
     Component.Explorer(),
@@ -49,11 +50,7 @@ export const defaultContentPageLayout: PageLayout = {
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [
-    Component.Breadcrumbs(),
-    Component.ArticleTitle(),
-    Component.ContentMeta(),
-  ],
+  beforeBody: [Component.ArticleTitle(), Component.ContentMeta()],
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
@@ -63,7 +60,7 @@ export const defaultListPageLayout: PageLayout = {
           Component: Component.Search(),
           grow: true,
         },
-        { Component: Component.Darkmode() },
+        // { Component: Component.Darkmode() },
       ],
     }),
     Component.Explorer(),

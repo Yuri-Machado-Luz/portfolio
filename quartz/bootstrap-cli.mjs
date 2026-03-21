@@ -12,7 +12,7 @@ import { CommonArgv, BuildArgv, CreateArgv, SyncArgv } from "./cli/args.js";
 import { version } from "./cli/constants.js";
 
 yargs(hideBin(process.argv))
-  .scriptName("quartz")
+  .scriptName("main")
   .version(version)
   .usage("$0 <cmd> [args]")
   .command("create", "Initialize Quartz", CreateArgv, async (argv) => {
