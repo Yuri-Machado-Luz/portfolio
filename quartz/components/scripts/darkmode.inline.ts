@@ -33,4 +33,5 @@ document.addEventListener("nav", () => {
       darkmodeButton.removeEventListener("click", switchTheme),
     );
   }
+  void themeChange(null as unknown as MediaQueryListEvent);
 });
