@@ -415,7 +415,7 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<
                 } else {
                   node.value = node.value.replace(
                     regex,
-                    (substring: string, ...args) => {
+                    (substring: string, ...args: any[]) => {
                       const replaceValue = replace(substring, ...args);
                       if (typeof replaceValue === "string") {
                         return replaceValue;
