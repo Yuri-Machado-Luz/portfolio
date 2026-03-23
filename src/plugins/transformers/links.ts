@@ -96,8 +96,9 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (
                 }
                 node.properties.className = classes;
 
-                if (isExternal && opts.openLinksInNewTab) {
-                  node.properties.target = "_blank";
+                if (isExternal) {
+                  node.properties.target = "_blank"; // Sempre abrir em nova guia
+                  node.properties.rel = "noopener noreferrer"; // Segurança adicional
                 }
 
                 // don't process external links or intra-document anchors

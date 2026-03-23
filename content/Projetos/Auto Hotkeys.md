@@ -1,10 +1,12 @@
 ---
-title: Atalhos via AHK
-draft:
+title: Atalhos e Helpers - Autohotkey
+draft: false
 tags:
-  - Automação
+  - automação
+---
+
+# [[https://github.com/Yuri-Machado-Luz/yuma-autohotkeys|Visite meu repositório!]]
+
 ---
 
 > Work-in-Progress
-
-# [[https://github.com/Yuri-Machado-Luz/yuma-autohotkeys|Visite meu repositório!]]

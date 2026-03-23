@@ -1,29 +1,17 @@
 ---
-title: Página Inicial
-date: 2026-03-20T09:00:00
+title: Home
 ---
 
-> [!faq] Para questões profissionais
-> Acesse: [[#Serviços]] - [[#Informações]] - [[#Contato]]
-
-# Portfolio Principal
-
-> [!error] Aviso
-> No momento, este site também funcionará, de forma provisória, como 'portfolio' pessoal, enquanto reviso a versão anterior desenvolvida em React.
+> [!faq] Aviso
+> Durante o processo de desenvolvimento de um novo Portfolio, esse site também será usado como placeholder de informações profissionais e conteúdos relacionados!
+>
+> Meu portfolio antigo pode ser visualizado [aqui.](https://portfolio.yurimachado.dev.br)
+>
+> Você também pode ir diretamente para minhas informações profissionais clicando [[#Serviços| aqui também.]]
 
 > [!info]- Por quê?
-> Senti que estava perdendo tempo demais com UIs.
+> O portfolio anterior estava sendo desenvolvido em React e ferramentas relacionas. Entretanto, não me considero um desenvolvedor focado em front-end e senti que estava perdendo tempo demais com isso.
 >
-> Por conta disso — decidi dar um tempo para focar em outros projetos.
+> Dado as fatos — decidi dar um tempo para focar em outros projetos.
 
-# Sobre o Site
-
-Para além de um showcase, a função inicial (e principal) desse site se assemelha a de um blog.
-
-Aqui, exponho pensamentos, aprendizados, roadmaps, documentações pessoais e diversos outros tipos de conteúdo.
-
-> Algumas sessões foram arquivadas para re-fatoração nesse momento de transição e reflexões pessoais.
-
-# Sessões
-
-> Para facilitar um pouco a navegação durante esse período em que o site será utilizado para substituir o portfolio principal, deixo aqui uma lista para que você possa ir diretamente ao conteúdo que for do seu interesse.
+# [[Boas-vindas|Bem-vindo ao meu... Blog?]]
