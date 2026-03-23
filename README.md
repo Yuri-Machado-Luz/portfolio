@@ -9,13 +9,13 @@ Uma das coisas que sempre fez parte da minha rotina é o hábito de manter uma "
 Também pretendo usá-lo como site principal durante essa fase de reestruturação, onde vou compartilhar meus projetos, aprendizados e experiências.
 
 > [!WARNING]
-> Work in progress - este projeto ainda está em desenvolvimento, então fique à vontade para explorar, mas esteja ciente de que pode haver mudanças e melhorias contínuas.
+> Work in progress - este projeto ainda está em desenvolvimento, então fique à vontade para explorar, mas esteja ciente de que podem haver mudanças e melhorias contínuas.
 
 Enquanto isso, deixo aqui uma lista de outros projetos que fazem parte dessa trilha:
 
 - [AutoHotKeys|Automações](https://github.com/Yuri-Machado-Luz/yuma-autohotkeys)
 - [Playground|Projetos de Experimentação](https://github.com/Yuri-Machado-Luz/yuma-playground)
-- [Portfolio|Antigo Portfolio](https://github.com/Yuri-Machado-Luz/portfolio-project)
+- Portifolio Antigo -> [Site](https://portfolio.yurimachado.dev.br) - [Repositório](https://github.com/Yuri-Machado-Luz/portfolio-project)
 
 ## Creditos
 
