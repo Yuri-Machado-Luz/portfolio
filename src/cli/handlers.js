@@ -339,7 +339,7 @@ export async function handleBuild(argv) {
     release();
 
     if (argv.bundleInfo) {
-      const outputFileName = "quartz/.quartz-cache/transpiled-build.mjs";
+      const outputFileName = "src/.quartz-cache/transpiled-build.mjs";
       const meta = result.metafile.outputs[outputFileName];
       console.log(
         `Successfully transpiled ${Object.keys(meta.inputs).length} files (${prettyBytes(
@@ -491,8 +491,8 @@ export async function handleBuild(argv) {
   if (argv.watch) {
     const paths = await globby([
       "**/*.ts",
-      "quartz/cli/*.js",
-      "quartz/static/**/*",
+      "src/cli/*.js",
+      "src/static/**/*",
       "**/*.tsx",
       "**/*.scss",
       "package.json",

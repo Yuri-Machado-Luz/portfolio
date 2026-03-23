@@ -9,8 +9,8 @@ export const UPSTREAM_NAME = "upstream";
 export const QUARTZ_SOURCE_BRANCH = "v4";
 export const cwd = process.cwd();
 export const cacheDir = path.join(cwd, ".quartz-cache");
-export const cacheFile = "./quartz/.quartz-cache/transpiled-build.mjs";
-export const fp = "./quartz/build.ts";
+export const cacheFile = "./src/.quartz-cache/transpiled-build.mjs";
+export const fp = "./src/build.ts";
 export const { version } = JSON.parse(
   readFileSync("./package.json").toString(),
 );

@@ -19,7 +19,7 @@ Enquanto isso, deixo aqui uma lista de outros projetos que fazem parte dessa tri
 
 ## Creditos
 
-### Quartz v4
+### MADE WITH → Quartz v4
 
 > “[One] who works with the door open gets all kinds of interruptions, but [they] also occasionally gets clues as to what the world is and what might be important.” — Richard Hamming
 

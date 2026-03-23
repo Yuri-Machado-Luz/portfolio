@@ -1,7 +1,11 @@
 {
-  "author": "Yuri Machado <yurimachadoluz@gmail.com>",
+  "author": {
+    "email": "yurimachadoluz@gmail.com",
+    "name": "Yuri Machado Luz",
+    "url": "https://yurimachadoluz.dev.br"
+  },
   "bin": {
-    "quartz": "./quartz/bootstrap-cli.mjs"
+    "yuma": "./src/bootstrap-cli.mjs"
   },
   "dependencies": {
     "@clack/prompts": "^1.1.0",
@@ -107,13 +111,14 @@
     "url": "https://github.com/Yuri-Machado-Luz/yuma-main-hall"
   },
   "scripts": {
-    "build": "node ./quartz/bootstrap-cli.mjs build",
+    "all": "pnpm run check && pnpm run test",
+    "build": "node ./src/bootstrap-cli.mjs build",
     "check": "tsc --noEmit && pnpm exec prettier . --check",
-    "docs": "node ./quartz/bootstrap-cli.mjs build --serve -d docs",
+    "docs": "node ./src/bootstrap-cli.mjs build --serve -d docs",
     "format": "pnpm exec prettier . --write",
-    "local": "node ./quartz/bootstrap-cli.mjs build --serve",
-    "main": "./quartz/bootstrap-cli.mjs",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
+    "local": "node ./src/bootstrap-cli.mjs build --serve",
+    "main": "./src/bootstrap-cli.mjs",
+    "profile": "0x -D prof ./src/bootstrap-cli.mjs build --concurrency=1",
     "test": "tsx --test"
   },
   "type": "module",

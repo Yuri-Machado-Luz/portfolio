@@ -1,5 +1,5 @@
-import { QuartzConfig } from "./quartz/cfg";
-import * as Plugin from "./quartz/plugins";
+import { QuartzConfig } from "./src/cfg";
+import * as Plugin from "./src/plugins";
 
 /**
  * Quartz 4 Configuration
