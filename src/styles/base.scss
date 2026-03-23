@@ -188,7 +188,7 @@ a {
     }
   }
 
-  & > #quartz-body {
+  & > #yuma-body {
     display: grid;
     grid-template-columns: #{map.get($desktopGrid, templateColumns)};
     grid-template-rows: #{map.get($desktopGrid, templateRows)};

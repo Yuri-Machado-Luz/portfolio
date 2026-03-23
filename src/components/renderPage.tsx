@@ -296,7 +296,8 @@ export function renderPage(
     <html lang={lang} dir={direction}>
       <Head {...componentData} />
       <body data-slug={slug}>
-        <div id="quartz-root" class="page">
+      {/* Made by Yuri Machado Luz (https://blog.yurimachado.dev.br) | Based on Quartz v4 */}
+        <div id="yuma-root" class="page">
           <Body {...componentData}>
             {LeftComponent}
             <div class="center">
