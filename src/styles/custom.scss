@@ -1,3 +1,28 @@
 @use "./base.scss";
-
+@use "../styles/variables.scss" as *;
 // put your custom CSS here!
+
+
+
+#yuma-body {
+  padding-left: 0 !important;
+}
+
+
+
+.left.sidebar {
+  width: 80%;
+  border-color: white;
+  border-width: 0.5px 3px 0.5px 0;
+  border-style: solid;
+  border-radius: 0 50px 50px 0;
+  padding: 3rem 1rem 2rem 2rem !important;
+  background-color: #150505;
+
+  @media all and ($mobile) {
+    padding: 1rem 2rem 1rem 1rem !important;
+    width: 100%;
+    border-radius: 50px;
+    border-width: 0 1px 2px 1px;
+  }
+}

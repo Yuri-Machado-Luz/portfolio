@@ -32,10 +32,10 @@ const config: QuartzConfig = {
           gray: "#9fa0a3ff", // text-muted: --neutral-450
           darkgray: "#ffffffdd", // text-main: --neutral-100
           dark: "#FFFFFF", // primary: --primary (hover, headers)
-          secondary: "#ed302dff", // secondary: --secondary
-          tertiary: "#04bfa9ff", // accent: --accent
+          secondary: "#FB1B1Bee", // secondary: --secondary
+          tertiary: "#04CEB6", // accent: --accent
           highlight: "rgba(191, 6, 3, 0.15)", // primary with low opacity
-          textHighlight: "#f9c80eaa", // accent with transparency
+          textHighlight: "#FB1B1B80", // accent with transparency
         },
         darkMode: {
           light: "#444444", // --color-bg: --neutral-900
@@ -43,10 +43,10 @@ const config: QuartzConfig = {
           gray: "#9fa0a3ff", // text-muted: --neutral-450
           darkgray: "#ffffffdd", // text-main: --neutral-100
           dark: "#FFFFFF", // primary: --primary (hover, headers)
-          secondary: "#ed302dff", // secondary: --secondary
-          tertiary: "#04bfa9ff", // accent: --accent
+          secondary: "#FB1B1Bee", // secondary: --secondary
+          tertiary: "#04CEB6", // accent: --accent
           highlight: "rgba(191, 6, 3, 0.15)", // primary with low opacity
-          textHighlight: "#f9c80eaa", // accent with transparency
+          textHighlight: "#FB1B1B80", // accent with transparency
         },
       },
     },

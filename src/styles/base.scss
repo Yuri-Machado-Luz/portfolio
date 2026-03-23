@@ -25,8 +25,8 @@ body {
 
 .text-highlight {
   background-color: var(--textHighlight);
-  padding: 0 0.1rem;
-  border-radius: 5px;
+  padding: 0 1rem 0 .9rem;
+  border-radius: 20px;
 }
 ::selection {
   background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
@@ -86,6 +86,8 @@ a {
   text-decoration: none;
   transition: color 0.2s ease;
   color: var(--secondary);
+  border-radius: 20px;
+
 
   &:hover {
     color: var(--tertiary);
@@ -94,8 +96,8 @@ a {
   &.internal {
     text-decoration: none;
     background-color: var(--highlight);
-    padding: 0 0.1rem;
-    border-radius: 5px;
+    padding: 0 0.4rem;
+    border-radius: 20px;
     line-height: 1.4rem;
 
     &.broken {
