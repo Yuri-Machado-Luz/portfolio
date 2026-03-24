@@ -1,5 +1,5 @@
 ---
-title: Data View
+title: Obsidian | DataView Plugin
 draft: true
 ---
 
