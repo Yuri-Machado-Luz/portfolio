@@ -73,6 +73,7 @@ export default ((opts?: Partial<GraphOptions>) => {
     return (
       <div class={classNames(displayClass, "graph")}>
         <h3>{i18n(cfg.locale).components.graph.title}</h3>
+          <div>Optimized for Chrome</div>
         <div class="graph-outer">
           <div
             class="graph-container"

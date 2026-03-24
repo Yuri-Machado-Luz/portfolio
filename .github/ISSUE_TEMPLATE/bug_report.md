@@ -6,7 +6,7 @@ labels: bug
 assignees: ""
 ---
 
-**Describe the bug**
+<!-- **Describe the bug**
 A clear and concise description of what the bug is.
 
 **To Reproduce**
@@ -37,4 +37,4 @@ You can help speed up fixing the problem by either
 - Browser [e.g. chrome, safari]
 
 **Additional context**
-Add any other context about the problem here.
+Add any other context about the problem here. -->

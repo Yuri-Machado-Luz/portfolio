@@ -33,9 +33,37 @@
   border-radius: 0 50px 50px 0;
   background-color: #150505;
   padding: 3rem 1rem 2rem 2rem !important;
-  border-width: 1px 2px 1px 0px;
+  border-width: 1px 3px 1px 0px;
+  border-right-color: #afafafff !important;
+  border-top-color: #5F5F5F;
+  border-bottom-color: #5F5F5F;
+  display: block;
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+
+  @media all and ($tablet) {
+    max-height: 96vh !important;
+    margin-top: 2vh;
+
+    &:hover {
+      transform: scale(1.02) translate(-2px, -1px);
+      box-shadow: 2px 4px 26px 8px rgba(123, 123, 123, 0.393);
+    }
+  }
+
+  @media all and ($desktop) {
+    margin: 2vh 0;
+    max-height: 96vh !important;
+
+    &:hover {
+      transform: scale(1.02) translate(-2px, -1px);
+      box-shadow: 2px 4px 26px 8px rgba(123, 123, 123, 0.393);
+    }
+
+  }
+
 
   @media ($mobile) {
+    border-left-color: #afafafff !important;
     padding: 1rem 2rem 1rem 1rem !important;
     width: 100% !important;
     border-radius: 50px;
