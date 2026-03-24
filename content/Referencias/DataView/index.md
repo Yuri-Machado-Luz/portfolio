@@ -1,11 +1,11 @@
 ---
 title: Obsidian | DataView Plugin
-draft: true
+draft: false
 ---
 
 ## Sobre o Data View
 
-Plugin para Obsidian que permite criar visualizações dinâmicas dos seus dados usando uma linguagem de consulta poderosa. Ele é especialmente útil para organizar e visualizar informações em seu vault de maneira personalizada.
+Plugin para Obsidian que permite criar visualizações dinâmicas dos seus dados usando uma linguagem de consulta poderosa. Ele é especialmente útil para organizar e visualizar informações de maneira personalizada.
 
 ### Documentação Oficial
 
