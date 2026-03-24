@@ -75,7 +75,20 @@
   font-size: 1.25rem;
   word-spacing: 0.02rem;
   margin-top: 2rem;
+  margin-bottom: 2rem;
   font-style: italic;
   color: #cfcfcfff;
   text-align: left;
+}
+
+@media ($tablet) {
+  footer {
+    margin-top: 5rem !important;
+  }
+}
+
+@media ($mobile) {
+  footer {
+    margin-top: 5rem !important;
+  }
 }
