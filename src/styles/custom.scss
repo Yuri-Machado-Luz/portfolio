@@ -10,16 +10,26 @@
 }
 
 @media all and ($mobile) {
-  #yuma-body {
+  html:not(.mobile-no-scroll) #yuma-body {
     padding: 2rem !important;
+    transition: padding 0.5s ease-in-out;
+  }
+
+  html:has(.mobile-no-scroll) #yuma-body {
+    padding: 0 !important;
+    transition: padding 0.5s ease-in-out;
   }
 }
 
-@media all and ($mobile) {
-  .explorer .explorer-content {
-    left: -2 !important;
+@media not (min-width: 1200px) {
+  .page>#yuma-body {
+    padding: 0 0rem;
+    transition: padding 0.5s ease-in-out;
   }
+}
 
+
+@media all and ($mobile) {
   .explorer-ul {
     font-size: large !important;
     padding-top: 1rem !important;
@@ -68,6 +78,10 @@
     width: 100% !important;
     border-radius: 50px;
     border-width: 0 1px 2px 1px;
+
+    .page-title {
+      font-size: 1.4rem !important;
+    }
   }
 }
 
