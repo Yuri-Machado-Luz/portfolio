@@ -14,5 +14,4 @@ title: Home
 >
 > Dado as fatos — decidi dar um tempo para focar em outros projetos.
 
-==Teste==
 # [[Boas-vindas|Bem-vindo ao meu... Blog?]]

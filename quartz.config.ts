@@ -27,10 +27,10 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#1B1B1B", // --color-bg: --neutral-900
+          light: "#040404", // --color-bg: --neutral-900
           lightgray: "#343434ff", // borders: --neutral-700
           gray: "#9fa0a3ff", // text-muted: --neutral-450
-          darkgray: "#ffffffdd", // text-main: --neutral-100
+          darkgray: "#CFCFCF", // text-main: --neutral-100
           dark: "#FFFFFF", // primary: --primary (hover, headers)
           secondary: "#FB1B1Bee", // secondary: --secondary
           tertiary: "#04CEB6", // accent: --accent
@@ -38,10 +38,10 @@ const config: QuartzConfig = {
           textHighlight: "#FB1B1B80", // accent with transparency
         },
         darkMode: {
-          light: "#444444", // --color-bg: --neutral-900
+          light: "#040404", // --color-bg: --neutral-900
           lightgray: "#343434ff", // borders: --neutral-700
           gray: "#9fa0a3ff", // text-muted: --neutral-450
-          darkgray: "#ffffffdd", // text-main: --neutral-100
+          darkgray: "#CFCFCF", // text-main: --neutral-100
           dark: "#FFFFFF", // primary: --primary (hover, headers)
           secondary: "#FB1B1Bee", // secondary: --secondary
           tertiary: "#04CEB6", // accent: --accent

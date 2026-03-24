@@ -6,7 +6,4 @@ tags:
 ---
 
 # [[https://github.com/Yuri-Machado-Luz/yuma-autohotkeys|Visite meu repositório!]]
-
----
-
 > Work-in-Progress
