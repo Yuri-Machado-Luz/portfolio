@@ -1,11 +1,20 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types";
+import {
+  QuartzComponent,
+  QuartzComponentConstructor,
+  QuartzComponentProps,
+} from "./types";
 import { classNames } from "../util/lang";
 
-const AnimatedBackground: QuartzComponent = ({ displayClass }: QuartzComponentProps) => {
+const AnimatedBackground: QuartzComponent = ({
+  displayClass,
+}: QuartzComponentProps) => {
   return (
     <canvas
       id="animated-background-canvas"
-      class={classNames(displayClass, "pointer-events-none fixed inset-0 -z-10")}
+      class={classNames(
+        displayClass,
+        "pointer-events-none fixed inset-0 -z-10",
+      )}
       style={{ background: "#0c090d" }}
     />
   );

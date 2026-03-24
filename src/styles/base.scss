@@ -25,7 +25,7 @@ body {
 
 .text-highlight {
   background-color: var(--textHighlight);
-  padding: 0 1rem 0 .9rem;
+  padding: 0 1rem 0 0.9rem;
   border-radius: 20px;
 }
 ::selection {
@@ -87,7 +87,6 @@ a {
   transition: color 0.2s ease;
   color: var(--secondary);
   border-radius: 20px;
-
 
   &:hover {
     color: var(--tertiary);

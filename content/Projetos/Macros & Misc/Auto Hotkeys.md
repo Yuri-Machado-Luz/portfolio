@@ -4,6 +4,7 @@ draft: false
 tags:
   - automação
 ---
+
 # [Visite meu repositório!](https://github.com/Yuri-Machado-Luz/yuma-autohotkeys)
 
 > Work-in-Progress
@@ -14,4 +15,4 @@ Em um momento de profundo incomodo com a quantidade limitada de variações para
 
 Desenvolvido sob princípios de modularidade e totalmente customizável!!
 
-Novas versões com recursos adicionais em breve estarão disponíveis. 
+Novas versões com recursos adicionais em breve estarão disponíveis.
