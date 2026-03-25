@@ -1,7 +1,8 @@
 ---
-title: Por que estou fazendo meu próprio gerador de sites estáticos (e por que você talvez não devesse)
+title: Por que estou fazendo meu próprio gerador de sites estáticos
 ---
-# O panorama
+**(e por que você talvez não devesse)**
+## O panorama
 
 Vamos aos fatos: hoje, esse blog poderia continuar funcionando perfeitamente com Quartz. Afinal, já é uma V2 da arquitetura anterior — aquela baseada só em React. A estrutura atual é "perfeita" pra integrar meu workflow de notas do Obsidian e transformar tudo num SSR coeso.
 
