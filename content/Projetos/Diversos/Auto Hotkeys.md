@@ -3,6 +3,7 @@ title: Atalhos e Helpers - Autohotkey
 draft: false
 tags:
   - automação
+  - projetos
 ---
 
 # [Visite meu repositório!](https://github.com/Yuri-Machado-Luz/yuma-autohotkeys)
