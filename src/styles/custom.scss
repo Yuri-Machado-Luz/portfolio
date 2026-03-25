@@ -22,12 +22,11 @@
 }
 
 @media not (min-width: 1200px) {
-  .page>#yuma-body {
+  .page > #yuma-body {
     padding: 0 0rem;
     transition: padding 0.5s ease-in-out;
   }
 }
-
 
 @media all and ($mobile) {
   .explorer-ul {

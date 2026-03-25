@@ -9,14 +9,14 @@ import style from "./styles/graph.scss";
 import { i18n } from "../i18n";
 import { classNames } from "../util/lang";
 
-
 async function fetchQuote() {
   const URL = "https://api.api-ninjas.com/v2/quoteoftheday";
 
   try {
     const response = await fetch(URL, {
       headers: {
-        "X-Api-Key": "zKL42n3L0NqHumsuOXDEtrRYyhhftrbgbmX9ZdAI"}
+        "X-Api-Key": "zKL42n3L0NqHumsuOXDEtrRYyhhftrbgbmX9ZdAI",
+      },
     });
     const data = await response.json();
     if (Array.isArray(data) && data.length > 0) {
@@ -135,7 +135,10 @@ export default ((opts?: Partial<GraphOptions>) => {
             data-cfg={JSON.stringify(globalGraph)}
           ></div>
         </div>
-        <div class="random-quote">{aRandomQuote.quote}<br></br>- {aRandomQuote.author}</div>
+        <div class="random-quote">
+          {aRandomQuote.quote}
+          <br></br>- {aRandomQuote.author}
+        </div>
       </div>
     );
   };
