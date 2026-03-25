@@ -1,5 +1,8 @@
 ---
 title: Por que estou fazendo meu próprio gerador de sites estáticos
+tags:
+  - artigos
+  - projetos
 ---
 **(e por que você talvez não devesse)**
 ## O panorama

@@ -1,7 +1,7 @@
 ---
 title: Projetos
-modified: 2026-03-1 16:34
+modified: 2026-03-3 15:25
 enableToc: true
 ---
-
+> [!ERROR] Work in Progress
 # [[Auto Hotkeys|Auto Hotkeys  → 96+ Atalhos]]

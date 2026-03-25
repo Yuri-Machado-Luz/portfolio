@@ -1,6 +1,8 @@
 ---
 title: Biblioteca de Componentes
 draft: false
+tags:
+  - projetos
 ---
 
 > [!ERROR] Work In Progress
