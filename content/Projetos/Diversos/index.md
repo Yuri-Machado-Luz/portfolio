@@ -1,5 +1,5 @@
 ---
-title: Projetos Diversificados
+title: Diversificados
 tags:
   - automação
 ---
