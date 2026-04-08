@@ -22,7 +22,7 @@
 }
 
 @media not (min-width: 1200px) {
-  .page > #yuma-body {
+  .page>#yuma-body {
     padding: 0 0rem;
     transition: padding 0.5s ease-in-out;
   }
@@ -55,20 +55,13 @@
     max-height: 96vh !important;
     margin-top: 2vh;
 
-    &:hover {
-      transform: scale(1.02) translate(-2px, -1px);
-      box-shadow: 2px 4px 26px 8px rgba(123, 123, 123, 0.393);
-    }
+
   }
 
   @media all and ($desktop) {
     margin: 2vh 0;
     max-height: 96vh !important;
 
-    &:hover {
-      transform: scale(1.02) translate(-2px, -1px);
-      box-shadow: 2px 4px 26px 8px rgba(123, 123, 123, 0.393);
-    }
   }
 
   @media ($mobile) {
