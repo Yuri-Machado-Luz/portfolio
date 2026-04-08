@@ -76,7 +76,3 @@ Site desenvolvido com arquitetura baseada em Atomic Design. Inclui testes automa
 - Inglês (avançado)
 - Espanhol (básico)
 - Francês (básico)
-
-## Um pouco mais sobre mim
-
-Tenho um perfíl híbrido que combina tecnologia, psicologia e design — isso me ajuda a criar soluções mais centradas no usuário. Sei me comunicar tanto com times técnicos quanto com pessoas que não vivem de código, e tenho experiência em gerenciar projetos de ponta a ponta como freelancer.
