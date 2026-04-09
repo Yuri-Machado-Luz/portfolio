@@ -2,7 +2,7 @@
 modified: 2026-03-1 16:58
 ---
 
-# Minhas redes:
+# Minhas redes
 
 ## [[https://github.com/Yuri-Machado-Luz|Git Hub]]
 
