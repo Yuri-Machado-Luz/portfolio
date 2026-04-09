@@ -1,10 +1,12 @@
 ---
-title: Por que estou fazendo meu próprio gerador de sites estáticos
+title: Por que estou fazendo meu próprio gerador de sites estáticos?
 tags:
   - artigos
   - projetos
 ---
-**(e por que você talvez não devesse)**
+
+**_(e por que você talvez não devesse)_**
+
 ## O panorama
 
 Vamos aos fatos: hoje, esse blog poderia continuar funcionando perfeitamente com Quartz. Afinal, já é uma V2 da arquitetura anterior — aquela baseada só em React. A estrutura atual é "perfeita" pra integrar meu workflow de notas do Obsidian e transformar tudo num SSR coeso.
@@ -17,7 +19,7 @@ Então a ideia é: abandonar a base pronta e construir uma arquitetura própria.
 
 E a resposta curta é: sim, vou. A justificativa é simples, e é o que eu quero compartilhar aqui — até porque pode ser que isso ajude alguém ou, sei lá. É um blog, certo? Discorrer sobre a própria jornada faz parte disso.
 
-## Por que não continuar com Quartz.
+## Por que não continuar com Quartz
 
 Olha, se seu único objetivo é escrever conteúdo e ter um site bonitinho com zero dor de cabeça, não tem motivo pra não usá-lo. Mas, no meu caso, o objetivo é outro: conhecimento. Quero controle sobre todas as etapas do que produzo aqui. O processamento de markdown, a resolução dos wikilinks, otimização de imagens, estrutura de URLs. Mais do que isso, quero mostrar que consigo desenvolver um gerador do zero.
 
@@ -39,13 +41,12 @@ Então a ideia é essa: usar o Vite só como empacotador e servidor de desenvolv
 
 Vou listar aqui o rascunho que já tenho — e que, se você quiser fazer algo parecido, provavelmente vai precisar fazer também.
 
-> Dividido em: fluxo + ferramentas projetadas.  
+> Dividido em: fluxo + ferramentas projetadas.
 > Totalmente sujeito a mudanças! Mas o blog vai ser atualizado durante o processo, então não se preocupe.
 
 **Um pipeline de build**: necessário pra fazer scan recursivo dos arquivos markdown do CMS, extrair o frontmatter e converter .md > .html.
 
 - Tools: Gray-matter + Remark + Rehype
-    
 
 **Wikilinks**: a parte chata. A lógica pra transformar `[[nome-do-arquivo]]` em link funcional, respeitando estrutura de alias `[[arquivo|texto]]` e tratando caminhos relativos. Provavelmente vou precisar escrever um plugin pro Remark. Vai demorar? Muito.
 
@@ -56,7 +57,7 @@ Vou listar aqui o rascunho que já tenho — e que, se você quiser fazer algo p
 - Backlinks
 - Servidor de desenvolvimento com hot-reload
 - Templates
-    
+
 E isso é só o essencial. Não vou nem pensar agora em otimização de imagens, feed RSS, sitemap, assets etc. Oh céus.
 
 ## Vale a pena? (depende do masoquismo)

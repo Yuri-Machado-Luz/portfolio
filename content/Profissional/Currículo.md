@@ -2,6 +2,7 @@
 modified: 2026-03-1 23:17
 draft: false
 ---
+
 # Yuri Machado Luz
 
 ## Desenvolvedor Full-Stack
@@ -14,7 +15,7 @@ draft: false
 > [LinkedIn](https://www.linkedin.com/in/yurimachadoluz0311)
 >
 > [GitHub](https://www.github.com/Yuri-Machado-Luz)
->
+
 ## Um pouco sobre mim
 
 Desenvolvedor júnior com experiência prática em JS/TS e Python, portador de uma curiosidade que não para de me levar para novas tecnologias.
@@ -59,7 +60,7 @@ Atuei na conformidade regulatória de recebíveis, automatizei a triagem de e-ma
 
 ## Projetos públicos
 
-### Portfólio pessoal  (antigo)
+### Portfólio pessoal (antigo)
 
 [`https://www.yurimachado.dev.br/`](https://portfolio.yurimachado.dev.br/)
 
