@@ -111,7 +111,7 @@
     "url": "https://github.com/Yuri-Machado-Luz/yuma-main-hall"
   },
   "scripts": {
-    "all": "pnpm format &&pnpm run check && pnpm run test",
+    "all": "pnpm format && pnpm run check && pnpm run test",
     "build": "node ./src/bootstrap-cli.mjs build",
     "check": "tsc --noEmit && pnpm exec prettier . --check",
     "docs": "node ./src/bootstrap-cli.mjs build --serve -d docs",

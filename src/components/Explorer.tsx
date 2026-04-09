@@ -34,10 +34,20 @@ const defaultOptions: Options = {
     return node;
   },
   sortFn: (a, b) => {
-    // Sort order: folders first, then files. Sort folders and files alphabeticall
+    // Sort by order field first
+    const aOrder = a.data?.order;
+    const bOrder = b.data?.order;
+    const aHasOrder = aOrder !== undefined && aOrder !== null;
+    const bHasOrder = bOrder !== undefined && bOrder !== null;
+
+    if (aHasOrder && bHasOrder) {
+      const diff = Number(aOrder) - Number(bOrder);
+      if (diff !== 0) return diff;
+    } else if (aHasOrder) return -1;
+    else if (bHasOrder) return 1;
+
+    // Fallback: alphabetical
     if ((!a.isFolder && !b.isFolder) || (a.isFolder && b.isFolder)) {
-      // numeric: true: Whether numeric collation should be used, such that "1" < "2" < "10"
-      // sensitivity: "base": Only strings that differ in base letters compare as unequal. Examples: a ≠ b, a = á, a = A
       return a.displayName.localeCompare(b.displayName, undefined, {
         numeric: true,
         sensitivity: "base",

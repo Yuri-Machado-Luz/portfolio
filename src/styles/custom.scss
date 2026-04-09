@@ -22,7 +22,7 @@
 }
 
 @media not (min-width: 1200px) {
-  .page>#yuma-body {
+  .page > #yuma-body {
     padding: 0 0rem;
     transition: padding 0.5s ease-in-out;
   }
@@ -54,14 +54,11 @@
   @media all and ($tablet) {
     max-height: 96vh !important;
     margin-top: 2vh;
-
-
   }
 
   @media all and ($desktop) {
     margin: 2vh 0;
     max-height: 96vh !important;
-
   }
 
   @media ($mobile) {

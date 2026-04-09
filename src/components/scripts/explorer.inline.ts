@@ -180,11 +180,14 @@ async function setupExplorer(currentSlug: FullSlug) {
         | "open",
       useSavedState: explorer.dataset.savestate === "true",
       order: dataFns.order || ["filter", "map", "sort"],
-      sortFn: (a, b) => {
-        if (!a.isFolder && b.isFolder) return -1;
-        if (a.isFolder && !b.isFolder) return 1;
-        return a.displayName.localeCompare(b.displayName);
-      },
+      sortFn:
+        dataFns.sortFn && dataFns.sortFn !== "undefined"
+          ? new Function("return (" + dataFns.sortFn + ")")()
+          : (a, b) => {
+              if (!a.isFolder && b.isFolder) return -1;
+              if (a.isFolder && !b.isFolder) return 1;
+              return a.displayName.localeCompare(b.displayName);
+            },
       filterFn: new Function("return " + (dataFns.filterFn || "undefined"))(),
       mapFn: new Function("return " + (dataFns.mapFn || "undefined"))(),
     };

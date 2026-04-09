@@ -54,6 +54,33 @@ export function byDateAndAlphabeticalFolderFirst(
   };
 }
 
+export function byOrderThenAlphabetical(): SortFn {
+  return (f1, f2) => {
+    // Sort by explicit order field
+    const f1Order = f1.frontmatter?.order;
+    const f2Order = f2.frontmatter?.order;
+
+    const f1HasOrder = f1Order !== undefined && f1Order !== null;
+    const f2HasOrder = f2Order !== undefined && f2Order !== null;
+
+    // If both have order, sort by order value
+    if (f1HasOrder && f2HasOrder) {
+      const diff = Number(f1Order) - Number(f2Order);
+      if (diff !== 0) return diff;
+    } else if (f1HasOrder) {
+      // Items with order come first
+      return -1;
+    } else if (f2HasOrder) {
+      return 1;
+    }
+
+    // Fallback to alphabetical by title
+    const f1Title = f1.frontmatter?.title.toLowerCase() ?? "";
+    const f2Title = f2.frontmatter?.title.toLowerCase() ?? "";
+    return f1Title.localeCompare(f2Title);
+  };
+}
+
 type Props = {
   limit?: number;
   sort?: SortFn;
