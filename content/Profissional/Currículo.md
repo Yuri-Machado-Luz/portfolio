@@ -27,7 +27,7 @@ Estou aberto a vagas de Analista, Fullstack, Front-end, Back-end e correlatas.
 
 - **Linguagens:** JavaScript, Python, TypeScript, HTML, CSS, C
 - **Frameworks & bibliotecas:** React, Node.js, Express, Tailwind CSS, Framer Motion, Pandas, Selenium
-- **Ferramentas:** Git, VS Code, Vite, Vitest, Power Automate, Excel (avançado), Figma, SAP
+- **Ferramentas:** Git, VSCode, VIM, Vite, Vitest, Power Automate, Excel (avançado), Figma, SAP
 - **Metodologias:** Scrum, Kanban, BPMN, testes automatizados
 
 ## Experiência
@@ -36,19 +36,20 @@ Estou aberto a vagas de Analista, Fullstack, Front-end, Back-end e correlatas.
 
 **_Jul 2022 – presente_**
 
-Desenvolvo aplicações web responsivas para pequenas e médias empresas usando React, Node.js, Motion e Tailwind. Também implemento automações (com diferentes frameworks) para reduzir tarefas manuais repetitivas, integro APIs para sincronizar dados entre sistemas e busco aplicar princípios de UX/UI em cada projeto.
+- Desenvolvo aplicações web responsivas para pequenas e médias empresas usando frameworks sob demanda como React, Vue, Node.js, Tailwind e bibliotecas variadas.
+- Implemento automações focadas em redução de tarefas manuais realizando integração de APIs e desenvolvendo soluções customizadas.
 
 ### Assistente Administrativo Pleno – IBM (BPO Decision)
 
 **_Dez 2024 – Abr 2025_**
 
-Redesenhei o fluxo de onboarding de colaboradores, reduzindo o tempo de integração de 7 para 3 dias (uma queda de 57%). Desenvolvi um script em Python para automatizar arquivamento em larga escala e documentei procedimentos operacionais (SOP) para que as melhorias se mantivessem no dia a dia.
+Redesenhei o fluxo de onboarding exercido pelo setor de Recrutamento responsável por novos colaboradores, reduzindo o tempo de integração de 7 para 3 dias (uma queda de 57%). Desenvolvi scripts em Python para automatizar arquivamento em larga escala e documentei procedimentos operacionais (SOP) para que as melhorias se mantivessem no dia a dia. Desenvolvi também um dashboard de monitoramento de KPIs utilizando Excel e VBA, o que facilitou a visualização de métricas e a tomada de decisões estratégicas.
 
 ### Designer & Redator (Freelancer)
 
 **_Jan 2020 – presente_**
 
-Crio identidades visuais, logos e materiais de branding. Desenvolvo protótipos de interfaces no Figma e na Adobe Suite, e também produzo conteúdo técnico e acadêmico seguindo normas ABNT — uma mistura um pouco incomum, mas que me ajuda a pensar em soluções de forma mais ampla.
+Crio identidades visuais, logos e materiais de branding. Desenvolvo protótipos de interfaces e também produzo conteúdo técnico e acadêmico seguindo normas ABNT para artigos, resenhas e trabalhos de conclusão de curso nas áres de tecnologia, pesquisa e educação.
 
 ### Analista de Backoffice – Cielo (BPO Atento)
 
@@ -63,6 +64,7 @@ Atuei na conformidade regulatória de recebíveis, automatizei a triagem de e-ma
 [`https://www.yurimachado.dev.br/`](https://portfolio.yurimachado.dev.br/)
 
 Site desenvolvido com arquitetura baseada em Atomic Design. Inclui testes automatizados (Vitest + React Testing Library), pipeline CI/CD com GitHub Actions e hospedagem na Vercel.
+
 **Tecnologias:** React 19, Vite, Tailwind CSS 4, Framer Motion, Vitest
 
 ## Formação
