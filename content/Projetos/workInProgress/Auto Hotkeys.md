@@ -1,5 +1,5 @@
 ---
-title: Atalhos e Helpers - Autohotkey
+title: AutoHotKeys - Macros e Atalhos
 draft: false
 tags:
   - automação
@@ -8,7 +8,7 @@ tags:
 
 # [Visite meu repositório!](https://github.com/Yuri-Machado-Luz/yuma-autohotkeys)
 
-> Work-in-Progress
+> [!example] Work-in-Progress
 
 ## [Combo de Atalhos](https://github.com/Yuri-Machado-Luz/yuma-autohotkeys/blob/main/plug-n-play/shortcuts-combo-remap/better-remap-documented.ahk)
 

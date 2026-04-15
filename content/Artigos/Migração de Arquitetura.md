@@ -3,6 +3,7 @@ title: Por que estou fazendo meu próprio gerador de sites estáticos?
 tags:
   - artigos
   - projetos
+draft: true
 ---
 
 **_(e por que você talvez não devesse)_**

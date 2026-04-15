@@ -1,5 +1,5 @@
 ---
-title: Profissional
+title: Área Profissional
 order: 10
 ---
 

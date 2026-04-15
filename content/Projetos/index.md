@@ -1,10 +1,11 @@
 ---
 title: Projetos
-modified: 2026-03-3 15:25
+modified: 2026-04-2 22:39
 enableToc: true
 order: 5
 ---
 
 > [!ERROR] Work in Progress
+> Mais conteúdo em breve!
 
-## [[Auto Hotkeys|Auto Hotkeys  → 96+ Atalhos]]
+## [[Auto Hotkeys|AHK v2 - Macros e Atalhos]]
