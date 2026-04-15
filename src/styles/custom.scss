@@ -40,7 +40,7 @@
   width: 80% !important;
   border-style: solid;
   border-radius: 0 50px 50px 0;
-  background-color: #150505;
+  background-color: #0a0202;
   padding: 3rem 1rem 2rem 2rem !important;
   border-width: 1px 3px 1px 0px;
   border-right-color: #afafafff !important;
@@ -51,15 +51,7 @@
     transform 0.5s ease-in-out,
     box-shadow 0.5s ease-in-out;
 
-  @media all and ($tablet) {
-    max-height: 96vh !important;
-    margin-top: 2vh;
-  }
 
-  @media all and ($desktop) {
-    margin: 2vh 0;
-    max-height: 96vh !important;
-  }
 
   @media ($mobile) {
     border-left-color: #afafafff !important;
