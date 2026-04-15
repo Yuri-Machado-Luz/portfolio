@@ -1,5 +1,5 @@
 ---
-modified: 2026-04-3 17:04
+modified: 2026-04-3 18:57
 draft: false
 ---
 > Download Links
@@ -21,7 +21,7 @@ draft: false
 |---|---|
 |**Telefone**|+55 (11) 94935-9394|
 |**E-mail**|yurimachadoluz@gmail.com|
-|**LinkedIn**|[linkedin.com/in/yurimachadoluz0311](https://www.linkedin.com/in/yurimachadoluz0311)|
+|**LinkedIn**|[linkedin.com/in/yurimachadoluz0311](https://www.linkedin.com/in/YuriMachadoLuz)|
 |**GitHub**|[github.com/Yuri-Machado-Luz](https://www.github.com/Yuri-Machado-Luz)|
 |**Portfólio**|[yurimachado.dev.br](https://www.yurimachado.dev.br/)|
 ## Sobre
