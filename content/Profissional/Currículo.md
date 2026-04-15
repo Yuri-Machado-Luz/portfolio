@@ -1,16 +1,13 @@
 ---
-modified: 2026-04-3 16:39
+modified: 2026-04-3 17:00
 draft: false
 ---
-> Links
-> <div style="font-size: 2rem">
-<section> Links:
-<a href="./Profissional/Contato">Contatos</a> 
-<br> Downloads:
+> Download Links
+
+ <div style="font-size: 2rem">
 <a rel="noopener noreferrer" href="./Attachments/YuriMachado-Curriculo.pdf" download target="_blank">PDF</a>
-<a rel="noopener noreferrer" href="./Attachments/YuriMachado-Curriculo.docx" download target="_blank">DOC</a>
+<a rel="noopener noreferrer" href="./Attachments/YuriMachado-Curriculo.docx" download target="_blank">DOCX</a>
 <a rel="noopener noreferrer" href="./Attachments/YuriMachado-Curriculo.yaml" download target="_blank">YAML</a>
-</section>
 </div>
 
 ---
