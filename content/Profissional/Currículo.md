@@ -1,13 +1,13 @@
 ---
-modified: 2026-04-3 17:00
+modified: 2026-04-3 17:04
 draft: false
 ---
 > Download Links
 
  <div style="font-size: 2rem">
-<a rel="noopener noreferrer" href="./Attachments/YuriMachado-Curriculo.pdf" download target="_blank">PDF</a>
-<a rel="noopener noreferrer" href="./Attachments/YuriMachado-Curriculo.docx" download target="_blank">DOCX</a>
-<a rel="noopener noreferrer" href="./Attachments/YuriMachado-Curriculo.yaml" download target="_blank">YAML</a>
+<a rel="noopener noreferrer" href="Profissional/Attachments/YuriMachado-Curriculo.pdf" download target="_blank">PDF</a>
+<a rel="noopener noreferrer" href="Profissional/Attachments/YuriMachado-Curriculo.docx" download target="_blank">DOCX</a>
+<a rel="noopener noreferrer" href="Profissional/Attachments/YuriMachado-Curriculo.yaml" download target="_blank">YAML</a>
 </div>
 
 ---
