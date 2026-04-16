@@ -1,58 +1,37 @@
 #!/bin/bash
 set -e
 
-echo "Starting build with SSH submodule support..."
+echo "🚀 Starting Vercel build with SSH submodule support..."
 
-# Setup SSH para clonar submodules privados
-export SSH_KEY_PATH=/tmp/deploy_key
+# Setup SSH
 mkdir -p ~/.ssh
 
-# Salva a chave privada SSH (decodifica de base64)
-echo "$SSH_PRIVATE_KEY" | base64 -d >$SSH_KEY_PATH
-chmod 600 $SSH_KEY_PATH
-
-# Valida chave
-if ! ssh-keygen -l -f $SSH_KEY_PATH >/dev/null 2>&1; then
-  echo "ERROR: Invalid SSH key format"
-  cat $SSH_KEY_PATH
-  exit 1
-fi
-
-echo "SSH key loaded successfully"
-
-# Configura SSH para usar a chave
-mkdir -p ~/.ssh
-cat >~/.ssh/config <<'SSHEOF'
+# Configura SSH config
+cat > ~/.ssh/config << 'EOF'
 Host github.com
   HostName github.com
   User git
-  IdentityFile /tmp/deploy_key
+  IdentityFile /tmp/ssh_key
   StrictHostKeyChecking no
-SSHEOF
+EOF
 
-# Testa conexão SSH
-echo "Testing SSH connection to GitHub..."
-ssh -i $SSH_KEY_PATH -T git@github.com 2>&1 | grep -q "authenticated" || echo "SSH connection to GitHub configured"
+# Salva chave privada SSH
+echo "$SSH_PRIVATE_KEY" > /tmp/ssh_key
+chmod 600 /tmp/ssh_key
 
-# Inicia SSH agent
-eval "$(ssh-agent -s)"
-ssh-add $SSH_KEY_PATH
-
-echo "Updating git submodules..."
-# Config Git
+# Git config para diretórios seguros
 git config --global --add safe.directory '*'
-# Atualiza submodules recursivamente
+
+echo "📦 Updating git submodules..."
 git submodule update --init --recursive
 
-# Instala dependências e faz build
-echo "Installing dependencies..."
+echo "📥 Installing dependencies..."
 pnpm install
 
-echo "Building project..."
+echo "🔨 Building project..."
 pnpm build
 
-echo "Build completed successfully!"
+echo "✅ Build completed successfully!"
 
-# Limpa chave privada por segurança
-rm -f $SSH_KEY_PATH
-ssh-agent -k
+# Cleanup por segurança
+rm -f /tmp/ssh_key
