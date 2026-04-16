@@ -1,4 +1,6 @@
 import { i18n } from "../i18n";
+import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage";
+import { unescapeHTML } from "../util/escape";
 import {
   FullSlug,
   getFileExtension,
@@ -15,8 +17,6 @@ import {
   QuartzComponentConstructor,
   QuartzComponentProps,
 } from "./types";
-import { unescapeHTML } from "../util/escape";
-import { CustomOgImagesEmitterName } from "../plugins/emitters/ogImage";
 export default (() => {
   const Head: QuartzComponent = ({
     cfg,
