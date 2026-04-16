@@ -1,13 +1,41 @@
+# System
 .DS_Store
-.gitignore
-node_modules
-public
-prof
+Thumbs.db
+
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# Build & Output
+public/
+dist/
+build/
+.next/
+
+# Development
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.editorconfig
+
+# Quartz specific
+.quartz-cache/
+prof/
 tsconfig.tsbuildinfo
-.obsidian
-.quartz-cache
+
+# Personal content
+content/*
+
+# Private files
 private/
+secrets/
+.env
+.env.local
+
+# Replit
 .replit
 replit.nix
-.vscode
-.editorconfig
