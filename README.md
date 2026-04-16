@@ -4,23 +4,20 @@
 
 [![Deploy](https://img.shields.io/badge/Deploy-Vercel-success?style=flat)](https://yurimachadoluz.dev.br)
 [![Node Version](https://img.shields.io/badge/Node-22.x-green?style=flat)](https://nodejs.org/)
-[![License](https://img.shields.io/badge/License-MIT-blue?style=flat)](#licença)
 
 ## 🎯 Sobre
 
-Este é um repositório público de conhecimento — uma base de dados pessoal indexada e publicada. Mantive durante anos o hábito de documentar pensamentos, pesquisas, reflexões e referências usando [Obsidian](https://obsidian.md/). Decidi compartilhar esse conhecimento publicamente e, simultaneamente, pausei meu portfolio tradicional em React para dedicar-me a outros projetos e tecnologias.
+Este é um repositório público de conhecimento — uma base de dados pessoal indexada e publicada. Mantive durante anos o hábito de documentar pensamentos, pesquisas, reflexões e referências usando. Agora, usando [Obsidian](https://obsidian.md/), decidi compartilhar esse conhecimento publicamente e, simultaneamente, pausei meu portfolio tradicional em React para dedicar-me a outros projetos e tecnologias.
 
 O site funciona como **hub profissional** durante minha fase de reestruturação, consolidando projetos, aprendizados e experiências em um único lugar.
 
 ## 🚀 Características
 
-- 📝 **Knowledge Base** — Artigos, tutoriais e reflexões técnicas
-- 🛠️ **Portfolio de Projetos** — Código, experimentos e trabalhos em progresso
-- 👤 **Informações Profissionais** — Currículo e formas de contato
-- 🔍 **Busca Full-Text** — Encontre conteúdo facilmente
-- 🌙 **Dark/Light Mode** — Modo escuro nativo
-- 📱 **Responsive** — Funciona em qualquer dispositivo
-- ⚡ **Ultra Rápido** — SSG com build otimizado
+- **Knowledge Base** — Artigos, tutoriais e reflexões técnicas
+- **Portfolio de Projetos** — Código, experimentos e trabalhos em progresso
+- **Informações Profissionais** — Currículo e formas de contato
+- **Responsive** — Funciona em qualquer dispositivo
+- **Otimizado** — SSG com build otimizado
 
 ## 💻 Tech Stack
 
@@ -44,33 +41,6 @@ O site funciona como **hub profissional** durante minha fase de reestruturação
   "shiki": "Syntax highlighting com temas",
   "sharp": "Otimização de imagens"
 }
-```
-
-## 🛠️ Setup Local
-
-### Pré-requisitos
-
-- **Node.js** 22+
-- **pnpm** (instalé com `npm install -g pnpm`)
-
-### Instalação
-
-```bash
-# Clonar repositório
-git clone https://github.com/seu-usuario/site-main-quartz.git
-cd site-main-quartz
-
-# Instalar dependências
-pnpm install
-
-# Executar em desenvolvimento
-pnpm local
-
-# Build para produção
-pnpm build
-
-# Formatar e validar código
-pnpm all
 ```
 
 ## 📋 Scripts Disponíveis
@@ -116,8 +86,8 @@ Veja [`.github/workflows/testing.yaml`](.github/workflows/testing.yaml) para det
 
 - 🔗 [Site Live](https://yurimachadoluz.dev.br)
 - 📧 [Email](mailto:yurimachadoluz@gmail.com)
-- 💼 [LinkedIn](https://linkedin.com/in/yuri-machado-luz)
-- 🐙 [GitHub](https://github.com/seu-usuario)
+- 💼 [LinkedIn](https://linkedin.com/in/yurimachadoluz)
+- 🐙 [GitHub](https://github.com/Yuri-Machado-Luz)
 
 ## 📄 Licença
 
@@ -130,4 +100,4 @@ Este projeto é possui direitos autorais reservados. Para qualquer uso (exceto p
 
 ---
 
-Baseado em [Quartz 4](https://quartz.jzhao.xyz/)
+Baseado em [Quartz](https://quartz.jzhao.xyz/)
