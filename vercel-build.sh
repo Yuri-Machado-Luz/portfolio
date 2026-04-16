@@ -7,8 +7,8 @@ echo "Starting build with SSH submodule support..."
 export SSH_KEY_PATH=/tmp/deploy_key
 mkdir -p ~/.ssh
 
-# Salva a chave privada SSH (preserva quebras de linha)
-printf '%s\n' "$SSH_PRIVATE_KEY" >$SSH_KEY_PATH
+# Salva a chave privada SSH (decodifica de base64)
+echo "$SSH_PRIVATE_KEY" | base64 -d >$SSH_KEY_PATH
 chmod 600 $SSH_KEY_PATH
 
 # Valida chave
