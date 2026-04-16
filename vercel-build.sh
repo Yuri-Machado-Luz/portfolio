@@ -1,26 +1,22 @@
 #!/bin/bash
-set -e
+set -euo pipefail
 
-# Setup SSH
-mkdir -p ~/.ssh
-chmod 700 ~/.ssh
+TOKEN="${GITHUB_SUBMODULE_TOKEN:-${GITHUB_TOKEN:-}}"
+if [[ -z "$TOKEN" ]]; then
+	echo "GITHUB_SUBMODULE_TOKEN or GITHUB_TOKEN is required"
+	exit 1
+fi
 
-# Setup private key (converts literal \n to actual newlines)
-echo "$SSH_PRIVATE_KEY" | sed 's/\\n/\n/g' >~/.ssh/id_rsa
-chmod 600 ~/.ssh/id_rsa
-
-# Add GitHub host key
-ssh-keyscan -t rsa github.com >>~/.ssh/known_hosts 2>/dev/null
-chmod 644 ~/.ssh/known_hosts
-
-# Configure Git SSH
-export GIT_SSH_COMMAND="ssh -i ~/.ssh/id_rsa -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new"
+export GIT_TERMINAL_PROMPT=0
 git config --global --add safe.directory '*'
 
 # Build
-git submodule update --init --recursive
+git submodule sync --recursive
+GIT_CONFIG_COUNT=2 \
+GIT_CONFIG_KEY_0="url.https://${TOKEN}:x-oauth-basic@github.com/.insteadOf" \
+GIT_CONFIG_VALUE_0="https://github.com/" \
+GIT_CONFIG_KEY_1="url.https://${TOKEN}:x-oauth-basic@github.com/.insteadOf" \
+GIT_CONFIG_VALUE_1="git@github.com:" \
+	git submodule update --init --recursive
 pnpm install
 pnpm build
-
-# Cleanup
-rm -f ~/.ssh/id_rsa
