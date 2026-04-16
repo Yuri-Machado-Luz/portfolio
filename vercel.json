@@ -1,3 +1,7 @@
 {
-  "cleanUrls": true
+  "cleanUrls": true,
+  "buildCommand": "bash vercel-build.sh",
+  "env": {
+    "SSH_PRIVATE_KEY": "@SSH_PRIVATE_KEY"
+  }
 }
