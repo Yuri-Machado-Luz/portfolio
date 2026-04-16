@@ -5,19 +5,28 @@ echo "🚀 Starting Vercel build with SSH submodule support..."
 
 # Setup SSH
 mkdir -p ~/.ssh
+chmod 700 ~/.ssh
 
-# Configura SSH config
-cat > ~/.ssh/config << 'EOF'
-Host github.com
-  HostName github.com
-  User git
-  IdentityFile /tmp/ssh_key
-  StrictHostKeyChecking no
-EOF
+# Salva chave privada SSH convertendo \n em novas linhas reais
+echo "📝 Salvando chave SSH..."
+printf '%b' "$SSH_PRIVATE_KEY" >~/.ssh/id_rsa
+chmod 600 ~/.ssh/id_rsa
 
-# Salva chave privada SSH
-echo "$SSH_PRIVATE_KEY" > /tmp/ssh_key
-chmod 600 /tmp/ssh_key
+# Verifica se a chave foi gravada corretamente
+KEY_SIZE=$(wc -c <~/.ssh/id_rsa)
+echo "✓ Chave SSH: $KEY_SIZE bytes"
+if [ "$KEY_SIZE" -lt 100 ]; then
+  echo "❌ ERRO: Chave SSH muito pequena! Pode estar mal formatada."
+  exit 1
+fi
+
+# Registra host key do GitHub para evitar prompt interativo em ambiente CI
+echo "🔐 Adicionando GitHub ao known_hosts..."
+ssh-keyscan -t rsa github.com >>~/.ssh/known_hosts 2>/dev/null
+chmod 644 ~/.ssh/known_hosts
+
+# Força o git a usar esta chave e o known_hosts configurado
+export GIT_SSH_COMMAND="ssh -i ~/.ssh/id_rsa -o IdentitiesOnly=yes -o StrictHostKeyChecking=accept-new -v"
 
 # Git config para diretórios seguros
 git config --global --add safe.directory '*'
@@ -34,4 +43,5 @@ pnpm build
 echo "✅ Build completed successfully!"
 
 # Cleanup por segurança
-rm -f /tmp/ssh_key
+rm -f ~/.ssh/id_rsa
+rm -f ~/.ssh/id_rsa
