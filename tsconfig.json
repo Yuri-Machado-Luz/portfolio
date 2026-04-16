@@ -22,7 +22,9 @@
     "**/*.ts",
     "**/*.tsx",
     "./package.json",
-    ".layout.ts",
-    ".config.ts"
+    "./layout.ts",
+    "./config.ts",
+    "./globals.d.ts",
+    "./index.d.ts"
   ]
 }

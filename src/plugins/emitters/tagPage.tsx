@@ -8,17 +8,17 @@ import { QuartzComponentProps } from "../../components/types";
 import { i18n, TRANSLATIONS } from "../../i18n";
 import { BuildCtx } from "../../util/ctx";
 import {
-    FullSlug,
-    getAllSegmentPrefixes,
-    joinSegments,
-    pathToRoot,
+  FullSlug,
+  getAllSegmentPrefixes,
+  joinSegments,
+  pathToRoot,
 } from "../../util/path";
 import { StaticResources } from "../../util/resources";
 import { QuartzEmitterPlugin } from "../types";
 import {
-    defaultProcessedContent,
-    ProcessedContent,
-    QuartzPluginData,
+  defaultProcessedContent,
+  ProcessedContent,
+  QuartzPluginData,
 } from "../vfile";
 import { write } from "./helpers";
 

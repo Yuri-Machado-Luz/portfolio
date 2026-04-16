@@ -2,8 +2,8 @@ import path from "path";
 import { Node } from "unist";
 import { styleText } from "util";
 import {
-    defaultContentPageLayout,
-    sharedPageComponents,
+  defaultContentPageLayout,
+  sharedPageComponents,
 } from "../../../.layout";
 import { FullPageLayout } from "../../cfg";
 import { Content } from "../../components";

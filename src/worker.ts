@@ -2,10 +2,10 @@ import sourceMapSupport from "source-map-support";
 import cfg from "../.config";
 import { MarkdownContent, ProcessedContent } from "./plugins/vfile";
 import {
-    createFileParser,
-    createHtmlProcessor,
-    createMarkdownParser,
-    createMdProcessor,
+  createFileParser,
+  createHtmlProcessor,
+  createMarkdownParser,
+  createMdProcessor,
 } from "./processors/parse";
 import { BuildCtx, WorkerSerializableBuildCtx } from "./util/ctx";
 import { FilePath } from "./util/path";
