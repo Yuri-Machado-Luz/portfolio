@@ -18,15 +18,20 @@ basics:
 
 skills:
   - name: "Linguagens & Estruturação"
-    keywords: ["TypeScript", "Python", "Shell Script", "HTML5/CSS3", "JSON", "YAML"]
+    keywords:
+      ["TypeScript", "Python", "Shell Script", "HTML5/CSS3", "JSON", "YAML"]
   - name: "Front-end & UI"
-    keywords: ["React", "Tailwind CSS", "Framer Motion", "Vite", "Axios", "Figma"]
+    keywords:
+      ["React", "Tailwind CSS", "Framer Motion", "Vite", "Axios", "Figma"]
   - name: "Back-end & Automação"
-    keywords: ["Node.js", "Express", "FastAPI", "Pandas", "Selenium", "Power Automate"]
+    keywords:
+      ["Node.js", "Express", "FastAPI", "Pandas", "Selenium", "Power Automate"]
   - name: "Ferramentas & Ambientes"
-    keywords: ["Git", "CI/CD", "Obsidian", "Excel", "Windows 11", "Ubuntu", "Terminal"]
+    keywords:
+      ["Git", "CI/CD", "Obsidian", "Excel", "Windows 11", "Ubuntu", "Terminal"]
   - name: "Metodologias"
-    keywords: ["Scrum", "Kanban", "BPMN", "GTD", "UML", "DRY", "Testes Automatizados"]
+    keywords:
+      ["Scrum", "Kanban", "BPMN", "GTD", "UML", "DRY", "Testes Automatizados"]
 
 work:
   - company: "Consultor Independente"

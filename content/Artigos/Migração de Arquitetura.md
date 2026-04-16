@@ -51,7 +51,7 @@ Vou listar aqui o rascunho que já tenho — e que, se você quiser fazer algo p
 
 **Wikilinks**: a parte chata. A lógica pra transformar `[[nome-do-arquivo]]` em link funcional, respeitando estrutura de alias `[[arquivo|texto]]` e tratando caminhos relativos. Provavelmente vou precisar escrever um plugin pro Remark. Vai demorar? Muito.
 
-**Roteamento**: lógica pra que `/sessão/post-da-sessão` sirva `dist/content/sessão/post-da-sessão/index.html`. Vou tentar não sofrer antecipadamente, porque tenho quase certeza que só _parece_ simples.
+**Roteamento**: lógica pra que `/sessão/post-da-sessão` sirva `dist/content/sessão/post-da-sessão/index.html`. Vou tentar não sofrer antecipadamente, porque tenho quase certeza que só *parece* simples.
 
 **Outras coisas que preciso pensar a respeito**:
 

@@ -5,9 +5,7 @@ import * as Component from "./src/components";
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [
-    Component.AnimatedBackground(), 
-  ],
+  afterBody: [Component.AnimatedBackground()],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/Yuri-Machado-Luz",

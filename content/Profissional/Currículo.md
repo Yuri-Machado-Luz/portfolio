@@ -2,6 +2,7 @@
 modified: 2026-04-3 21:27
 draft: false
 ---
+
 > Download Links
 
  <div style="font-size: 2rem">
@@ -11,19 +12,21 @@ draft: false
 </div>
 
 ---
+
 # YURI MACHADO LUZ
 
 ### Desenvolvedor Full-Stack
 
 ## Contato
 
-|||
-|---|---|
-|**Telefone**|+55 (11) 94935-9394|
-|**E-mail**|yurimachadoluz@gmail.com|
-|**LinkedIn**|[linkedin.com/in/yurimachadoluz0311](https://www.linkedin.com/in/YuriMachadoLuz)|
-|**GitHub**|[github.com/Yuri-Machado-Luz](https://www.github.com/Yuri-Machado-Luz)|
-|**Portfólio**|[yurimachado.dev.br](https://www.yurimachado.dev.br/)|
+|               |                                                                                  |
+| ------------- | -------------------------------------------------------------------------------- |
+| **Telefone**  | +55 (11) 94935-9394                                                              |
+| **E-mail**    | yurimachadoluz@gmail.com                                                         |
+| **LinkedIn**  | [linkedin.com/in/yurimachadoluz0311](https://www.linkedin.com/in/YuriMachadoLuz) |
+| **GitHub**    | [github.com/Yuri-Machado-Luz](https://www.github.com/Yuri-Machado-Luz)           |
+| **Portfólio** | [yurimachado.dev.br](https://www.yurimachado.dev.br/)                            |
+
 ## Sobre
 
 Desenvolvedor Full-Stack autônomo, atualmente cursando Análise e Desenvolvimento de Sistemas. Disponível para atuar como Analista, Desenvolvedor Full-Stack, Front/Back-End ou Web Developer.

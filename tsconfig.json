@@ -7,11 +7,7 @@
     "incremental": true,
     "jsx": "react-jsx",
     "jsxImportSource": "preact",
-    "lib": [
-      "esnext",
-      "DOM",
-      "DOM.Iterable"
-    ],
+    "lib": ["esnext", "DOM", "DOM.Iterable"],
     "module": "esnext",
     "moduleResolution": "node10",
     "noUnusedLocals": true,
@@ -21,12 +17,6 @@
     "strict": true,
     "target": "esnext"
   },
-  "exclude": [
-    "build/**/*.d.ts"
-  ],
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "./package.json"
-  ]
+  "exclude": ["build/**/*.d.ts"],
+  "include": ["**/*.ts", "**/*.tsx", "./package.json"]
 }

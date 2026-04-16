@@ -14,9 +14,9 @@ Espera — um blog? Não, isso não está certo.
 
 ### Um diário de desenvolvimento pessoal?
 
-Droga, acho que deve ser um blog mesmo. De qualquer forma, seja bem-vindo(a) ao meu recanto pessoal! Aqui, você vai encontrar uma variedade de conteúdos relacionados à… tudo!? 
+Droga, acho que deve ser um blog mesmo. De qualquer forma, seja bem-vindo(a) ao meu recanto pessoal! Aqui, você vai encontrar uma variedade de conteúdos relacionados à… tudo!?
 
-Tá, tá — “tudo” é exagero. Mas olha, eu produzo muita coisa, tá bom? Então “tudo” até que faz sentido. 
+Tá, tá — “tudo” é exagero. Mas olha, eu produzo muita coisa, tá bom? Então “tudo” até que faz sentido.
 
 ## Sobre o Autor
 
@@ -37,7 +37,6 @@ Ele está... um pouquinho vazio atualmente.
 Mas não por muito tempo! A decisão de tornar públicos meus arquivos de documentação, notas pessoais, conteúdos literários e afins foi recente — então ainda estou organizando algumas coisas para tornar o conteúdo publicável!
 
 Mas fique à vontade para explorar o [[https://github.com/Yuri-Machado-Luz/yuma-main-hall|repositório]] responsável por manter o site no ar, ou dar uma olhadinha no meu [[https://portfolio.yurimachado.dev.br|antigo portfólio]] enquanto isso!
-
 
 ==Veja também:==
 
