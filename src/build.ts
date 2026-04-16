@@ -1,26 +1,26 @@
-import sourceMapSupport from "source-map-support";
-sourceMapSupport.install(options);
-import path from "path";
-import { PerfTimer } from "./util/perf";
+import { Mutex } from "async-mutex";
+import chokidar from "chokidar";
 import { rm } from "fs/promises";
 import { GlobbyFilterFunction, isGitIgnored } from "globby";
+import { minimatch } from "minimatch";
+import path from "path";
+import sourceMapSupport from "source-map-support";
 import { styleText } from "util";
-import { parseMarkdown } from "./processors/parse";
-import { filterContent } from "./processors/filter";
-import { emitContent } from "./processors/emit";
-import cfg from "../quartz.config";
-import { FilePath, joinSegments, slugifyFilePath } from "./util/path";
-import chokidar from "chokidar";
+import cfg from "../config";
+import { getStaticResourcesFromPlugins } from "./plugins";
+import { ChangeEvent } from "./plugins/types";
 import { ProcessedContent } from "./plugins/vfile";
+import { emitContent } from "./processors/emit";
+import { filterContent } from "./processors/filter";
+import { parseMarkdown } from "./processors/parse";
 import { Argv, BuildCtx } from "./util/ctx";
 import { glob, toPosixPath } from "./util/glob";
-import { trace } from "./util/trace";
-import { options } from "./util/sourcemap";
-import { Mutex } from "async-mutex";
-import { getStaticResourcesFromPlugins } from "./plugins";
+import { FilePath, joinSegments, slugifyFilePath } from "./util/path";
+import { PerfTimer } from "./util/perf";
 import { randomIdNonSecure } from "./util/random";
-import { ChangeEvent } from "./plugins/types";
-import { minimatch } from "minimatch";
+import { options } from "./util/sourcemap";
+import { trace } from "./util/trace";
+sourceMapSupport.install(options);
 
 type ContentMap = Map<
   FilePath,

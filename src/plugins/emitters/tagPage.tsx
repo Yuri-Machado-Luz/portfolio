@@ -1,29 +1,26 @@
-import { QuartzEmitterPlugin } from "../types";
-import { QuartzComponentProps } from "../../components/types";
-import HeaderConstructor from "../../components/Header";
-import BodyConstructor from "../../components/Body";
-import { pageResources, renderPage } from "../../components/renderPage";
-import {
-  ProcessedContent,
-  QuartzPluginData,
-  defaultProcessedContent,
-} from "../vfile";
+import { defaultListPageLayout, sharedPageComponents } from "../../../layout";
 import { FullPageLayout } from "../../cfg";
-import {
-  FullSlug,
-  getAllSegmentPrefixes,
-  joinSegments,
-  pathToRoot,
-} from "../../util/path";
-import {
-  defaultListPageLayout,
-  sharedPageComponents,
-} from "../../../quartz.layout";
 import { TagContent } from "../../components";
-import { write } from "./helpers";
+import BodyConstructor from "../../components/Body";
+import HeaderConstructor from "../../components/Header";
+import { pageResources, renderPage } from "../../components/renderPage";
+import { QuartzComponentProps } from "../../components/types";
 import { i18n, TRANSLATIONS } from "../../i18n";
 import { BuildCtx } from "../../util/ctx";
+import {
+    FullSlug,
+    getAllSegmentPrefixes,
+    joinSegments,
+    pathToRoot,
+} from "../../util/path";
 import { StaticResources } from "../../util/resources";
+import { QuartzEmitterPlugin } from "../types";
+import {
+    defaultProcessedContent,
+    ProcessedContent,
+    QuartzPluginData,
+} from "../vfile";
+import { write } from "./helpers";
 
 interface TagPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number;

@@ -1,32 +1,29 @@
-import { QuartzEmitterPlugin } from "../types";
-import { QuartzComponentProps } from "../../components/types";
-import HeaderConstructor from "../../components/Header";
-import BodyConstructor from "../../components/Body";
-import { pageResources, renderPage } from "../../components/renderPage";
-import {
-  ProcessedContent,
-  QuartzPluginData,
-  defaultProcessedContent,
-} from "../vfile";
-import { FullPageLayout } from "../../cfg";
 import path from "path";
-import {
-  FullSlug,
-  SimpleSlug,
-  stripSlashes,
-  joinSegments,
-  pathToRoot,
-  simplifySlug,
-} from "../../util/path";
-import {
-  defaultListPageLayout,
-  sharedPageComponents,
-} from "../../../quartz.layout";
+import { defaultListPageLayout, sharedPageComponents } from "../../../layout";
+import { FullPageLayout } from "../../cfg";
 import { FolderContent } from "../../components";
-import { write } from "./helpers";
+import BodyConstructor from "../../components/Body";
+import HeaderConstructor from "../../components/Header";
+import { pageResources, renderPage } from "../../components/renderPage";
+import { QuartzComponentProps } from "../../components/types";
 import { i18n, TRANSLATIONS } from "../../i18n";
 import { BuildCtx } from "../../util/ctx";
+import {
+  FullSlug,
+  joinSegments,
+  pathToRoot,
+  SimpleSlug,
+  simplifySlug,
+  stripSlashes,
+} from "../../util/path";
 import { StaticResources } from "../../util/resources";
+import { QuartzEmitterPlugin } from "../types";
+import {
+  defaultProcessedContent,
+  ProcessedContent,
+  QuartzPluginData,
+} from "../vfile";
+import { write } from "./helpers";
 interface FolderPageOptions extends FullPageLayout {
   sort?: (f1: QuartzPluginData, f2: QuartzPluginData) => number;
 }
