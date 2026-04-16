@@ -1,7 +1,8 @@
 ---
 title: Bem-vindos ao meu... Blog?
 date: 2026-03-20T09:00:00
-tags: [artigos]
+tags:
+  - artigos
 order: 1
 ---
 
@@ -38,6 +39,6 @@ Mas não por muito tempo! A decisão de tornar públicos meus arquivos de docume
 Mas fique à vontade para explorar o [[https://github.com/Yuri-Machado-Luz/yuma-main-hall|repositório]] responsável por manter o site no ar, ou dar uma olhadinha no meu [[https://portfolio.yurimachado.dev.br|antigo portfólio]] enquanto isso!
 
 
-### ==Veja também:==
+==Veja também:==
 
 [[Currículo]] [[Projetos/index|Projetos]]

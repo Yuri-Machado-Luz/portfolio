@@ -5,11 +5,13 @@ import * as Component from "./src/components";
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [Component.AnimatedBackground()],
+  afterBody: [
+    Component.AnimatedBackground(), 
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/Yuri-Machado-Luz",
-      LinkedIn: "https://www.linkedin.com/in/yurimachadoluz0311/",
+      LinkedIn: "https://www.linkedin.com/in/yurimachadoluz/",
       WhatsApp:
         "https://api.whatsapp.com/send?phone=5511949359394&text=Ol%C3%A1!%20Vim%20atrav%C3%A9s%20do%20seu%20site.",
     },
