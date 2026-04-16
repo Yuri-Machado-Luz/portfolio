@@ -7,16 +7,25 @@ echo "🚀 Starting Vercel build with SSH submodule support..."
 mkdir -p ~/.ssh
 chmod 700 ~/.ssh
 
-# Salva chave privada SSH convertendo \n em novas linhas reais
+# Salva chave privada SSH convertendo \n LITERAL em novas linhas reais
 echo "📝 Salvando chave SSH..."
-printf '%b' "$SSH_PRIVATE_KEY" >~/.ssh/id_rsa
+echo "$SSH_PRIVATE_KEY" | sed 's/\\n/\n/g' >~/.ssh/id_rsa
 chmod 600 ~/.ssh/id_rsa
 
 # Verifica se a chave foi gravada corretamente
 KEY_SIZE=$(wc -c <~/.ssh/id_rsa)
 echo "✓ Chave SSH: $KEY_SIZE bytes"
-if [ "$KEY_SIZE" -lt 100 ]; then
-  echo "❌ ERRO: Chave SSH muito pequena! Pode estar mal formatada."
+if [ "$KEY_SIZE" -lt 1500 ]; then
+  echo "❌ ERRO: Chave SSH muito pequena! Formato inválido."
+  echo "Primeiras 200 caracteres da variável:"
+  echo "${SSH_PRIVATE_KEY:0:200}" | head -c 200
+  exit 1
+fi
+
+# Valida se começa com BEGIN e termina com END
+if ! grep -q "BEGIN OPENSSH PRIVATE KEY" ~/.ssh/id_rsa || ! grep -q "END OPENSSH PRIVATE KEY" ~/.ssh/id_rsa; then
+  echo "❌ ERRO: Formato da chave inválido!"
+  head -3 ~/.ssh/id_rsa
   exit 1
 fi
 
