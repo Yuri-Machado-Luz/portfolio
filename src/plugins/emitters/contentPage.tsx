@@ -4,7 +4,7 @@ import { styleText } from "util";
 import {
     defaultContentPageLayout,
     sharedPageComponents,
-} from "../../../layout";
+} from "../../../.layout";
 import { FullPageLayout } from "../../cfg";
 import { Content } from "../../components";
 import BodyConstructor from "../../components/Body";

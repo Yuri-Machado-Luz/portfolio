@@ -1,4 +1,4 @@
-import { defaultListPageLayout, sharedPageComponents } from "../../../layout";
+import { defaultListPageLayout, sharedPageComponents } from "../../../.layout";
 import { FullPageLayout } from "../../cfg";
 import { TagContent } from "../../components";
 import BodyConstructor from "../../components/Body";

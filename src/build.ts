@@ -6,7 +6,7 @@ import { minimatch } from "minimatch";
 import path from "path";
 import sourceMapSupport from "source-map-support";
 import { styleText } from "util";
-import cfg from "../config";
+import cfg from "../.config";
 import { getStaticResourcesFromPlugins } from "./plugins";
 import { ChangeEvent } from "./plugins/types";
 import { ProcessedContent } from "./plugins/vfile";

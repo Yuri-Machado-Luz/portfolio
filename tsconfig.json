@@ -18,5 +18,11 @@
     "target": "esnext"
   },
   "exclude": ["build/**/*.d.ts"],
-  "include": ["**/*.ts", "**/*.tsx", "./package.json"]
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "./package.json",
+    ".layout.ts",
+    ".config.ts"
+  ]
 }

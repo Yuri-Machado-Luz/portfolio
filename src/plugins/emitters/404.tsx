@@ -1,4 +1,4 @@
-import { sharedPageComponents } from "../../../layout";
+import { sharedPageComponents } from "../../../.layout";
 import { FullPageLayout } from "../../cfg";
 import { NotFound } from "../../components";
 import BodyConstructor from "../../components/Body";

@@ -1,5 +1,5 @@
 import path from "path";
-import { defaultListPageLayout, sharedPageComponents } from "../../../layout";
+import { defaultListPageLayout, sharedPageComponents } from "../../../.layout";
 import { FullPageLayout } from "../../cfg";
 import { FolderContent } from "../../components";
 import BodyConstructor from "../../components/Body";
@@ -9,19 +9,19 @@ import { QuartzComponentProps } from "../../components/types";
 import { i18n, TRANSLATIONS } from "../../i18n";
 import { BuildCtx } from "../../util/ctx";
 import {
-  FullSlug,
-  joinSegments,
-  pathToRoot,
-  SimpleSlug,
-  simplifySlug,
-  stripSlashes,
+    FullSlug,
+    joinSegments,
+    pathToRoot,
+    SimpleSlug,
+    simplifySlug,
+    stripSlashes,
 } from "../../util/path";
 import { StaticResources } from "../../util/resources";
 import { QuartzEmitterPlugin } from "../types";
 import {
-  defaultProcessedContent,
-  ProcessedContent,
-  QuartzPluginData,
+    defaultProcessedContent,
+    ProcessedContent,
+    QuartzPluginData,
 } from "../vfile";
 import { write } from "./helpers";
 interface FolderPageOptions extends FullPageLayout {
