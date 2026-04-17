@@ -53,6 +53,5 @@ export {
   TableOfContents,
   TagContent,
   TagList,
-  VercelAnalytics
+  VercelAnalytics,
 };
-
