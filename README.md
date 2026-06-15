@@ -5,7 +5,7 @@
 [![Deploy](https://img.shields.io/badge/Deploy-Vercel-success?style=flat)](https://yurimachadoluz.dev.br)
 [![Node Version](https://img.shields.io/badge/Node-22.x-green?style=flat)](https://nodejs.org/)
 
-## 🎯 Sobre
+## 🎯 Sobre 
 
 Este é um repositório público de conhecimento — uma base de dados pessoal indexada e publicada. Mantive durante anos o hábito de documentar pensamentos, pesquisas, reflexões e referências usando. Agora, usando [Obsidian](https://obsidian.md/), decidi compartilhar esse conhecimento publicamente e, simultaneamente, pausei meu portfolio tradicional em React para dedicar-me a outros projetos e tecnologias.
 
